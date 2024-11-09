@@ -1,0 +1,25 @@
+{
+  "name": "hono-tutorial-cloudflare-pages",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "wrangler pages dev",
+    "deploy": "$npm_execpath run build && wrangler pages deploy",
+    "lint:html": "markuplint \"**/*.tsx\""
+  },
+  "dependencies": {
+    "hono": "^4.6.9"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "@hono/vite-build": "^1.0.0",
+    "@hono/vite-dev-server": "^0.15.1",
+    "@markuplint/jsx-parser": "^4.7.12",
+    "@markuplint/pug-parser": "^4.6.12",
+    "@markuplint/react-spec": "^4.5.12",
+    "markuplint": "^4.11.2",
+    "vite": "^5.2.12",
+    "wrangler": "^3.57.2"
+  }
+}
