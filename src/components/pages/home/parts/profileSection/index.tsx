@@ -15,9 +15,9 @@ export default function ProfileSection() {
         <h1 className={h1}>岩渕 康也</h1>
         <span className={profileText}>フロントエンドエンジニア</span>
         <div className={badgeContainer}>
-          <Badge label="kouya.0730@icloud.com" iconName="email" />
-          <Badge label="080-1695-7029" iconName="phone" />
-          <Badge label="岩手県西磐井郡平泉町" iconName="address" />
+          <Badge label="test@icloud.com" iconName="email" />
+          <Badge label="123-4567-8912" iconName="phone" />
+          <Badge label="test" iconName="address" />
         </div>
       </div>
     </section>
