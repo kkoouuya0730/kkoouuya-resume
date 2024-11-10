@@ -55,6 +55,13 @@ export const skillsSection = css`
   flex-basis: 50%;
 `;
 
+export const ul = css`
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+`
+
 export const h1 = css`
   color: #5445e5;
 `;

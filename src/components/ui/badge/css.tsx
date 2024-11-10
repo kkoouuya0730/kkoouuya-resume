@@ -12,3 +12,14 @@ export const badge = css`
   width: fit-content;
   border-radius: 12px;
 `
+
+export const noIconBadge = css`
+  background-color: #A556F7;
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  padding: 4px 8px;
+  width: fit-content;
+  border-radius: 12px;
+
+`
