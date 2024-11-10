@@ -1,5 +1,5 @@
 import { css } from "hono/css";
 
 export const educationSection = css`
-  flex-basis: 50%;
+  padding-bottom: 32px;
 `;

@@ -8,15 +8,6 @@ export const card = css`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 `;
 
-
-
-export const bottomSection = css`
-  display: flex;
-  padding-bottom: 32px;
-`;
-
-
-
 export const h1 = css`
   color: #5445e5;
 `;

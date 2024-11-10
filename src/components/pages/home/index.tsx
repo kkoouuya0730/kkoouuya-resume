@@ -1,4 +1,4 @@
-import { bottomSection, card } from "./css";
+import { card } from "./css";
 import EducationSection from "./parts/educationSection";
 import ProfileSection from "./parts/profileSection";
 import SkillSection from "./parts/skillsSection";
@@ -9,10 +9,8 @@ export const Home = () => {
     <div className={card}>
       <ProfileSection />
       <WorkSection />
-      <div className={bottomSection}>
-        <EducationSection />
-        <SkillSection />
-      </div>
+      <SkillSection />
+      <EducationSection />
     </div>
   );
 };
