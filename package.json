@@ -6,7 +6,6 @@
     "build": "vite build",
     "preview": "wrangler pages dev",
     "deploy": "$npm_execpath run build && wrangler pages deploy",
-    "lint:html": "markuplint \"**/*.tsx\""
   },
   "dependencies": {
     "hono": "^4.6.9"
