@@ -1,6 +1,6 @@
 import { jsxRenderer } from "hono/jsx-renderer";
 import { Style } from "hono/css";
-import { content, footer, header, nav, a, icon, headerTitle } from "./css";
+import { content, footer, header, nav, a, icon, headerTitle, body } from "./css";
 import { GithubIcon } from "./components/ui/icons/GithubIcon";
 
 export const renderer = jsxRenderer(({ children }) => {
@@ -10,7 +10,7 @@ export const renderer = jsxRenderer(({ children }) => {
         <link href="/static/style.css" rel="stylesheet" />
         <Style />
       </head>
-      <body>
+      <body className={body}>
         <header className={header}>
           <span>
             <a className={headerTitle} href="/">

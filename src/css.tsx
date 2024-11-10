@@ -3,13 +3,14 @@ export const header = css`
   background-color: white;
   height: 56px;
   max-width: 100%;
-  margin: auto;
+  padding: 0 36px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 0 solid #e5e7eb;
   border-bottom-width: 1px;
   box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 `;
 
 export const headerTitle = css`
@@ -44,6 +45,9 @@ export const icon = css`
   padding: 4px;
 `;
 
+export const body = css`
+  background-color: #eef3ff;
+`;
 export const content = css`
   width: 60%;
   max-width: 100%;
