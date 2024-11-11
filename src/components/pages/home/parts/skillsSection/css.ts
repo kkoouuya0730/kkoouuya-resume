@@ -16,6 +16,7 @@ export const frontSection = css`
 `;
 
 export const ul = css`
+  padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
