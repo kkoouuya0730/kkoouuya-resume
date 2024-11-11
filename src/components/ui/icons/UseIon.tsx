@@ -1,6 +1,7 @@
 import { AcademicIcon } from "./AcademicIcon";
 import { AddressIcon } from "./AddressIcon";
 import { BrainIcon } from "./BrainIcon";
+import { BriefcaseIcon } from "./BriefcaseIcon";
 import { EmailIcon } from "./EmailIcon";
 import { GithubIcon } from "./GithubIcon";
 import { PhoneIcon } from "./PhoneIcon";
@@ -9,6 +10,7 @@ const iconsMapping = {
   academic: AcademicIcon,
   address: AddressIcon,
   brain: BrainIcon,
+  briefcase: BriefcaseIcon,
   email: EmailIcon,
   github: GithubIcon,
   phone: PhoneIcon,
