@@ -17,3 +17,9 @@ export const h2 = css`
 export const h3 = css`
   color: #2c1a99;
 `;
+
+export const headingIcon = css`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+`;
