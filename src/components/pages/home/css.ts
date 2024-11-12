@@ -18,6 +18,10 @@ export const h3 = css`
   color: #2c1a99;
 `;
 
+export const h4 = css`
+  color: #4f46e5;
+`;
+
 export const headingIcon = css`
   display: flex;
   align-items: center;
