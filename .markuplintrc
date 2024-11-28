@@ -10,7 +10,7 @@
     "attr-value-quotes": false,
     "case-sensitive-attr-name": false,
     "case-sensitive-tag-name": false,
-    "character-reference": true,
+    "[[character-reference]]": true,
     "class-naming": false,
     "deprecated-attr": true,
     "deprecated-element": true,
@@ -44,5 +44,13 @@
     "table-row-column-alignment": false,
     "use-list": false,
     "wai-aria": true
-  }
+  },
+  "nodeRules": [
+    {
+      "selector": ".ignore",
+      "rules": {
+        "[[character-reference]]": false
+      }
+    }
+  ]
 }
