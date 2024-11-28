@@ -38,7 +38,7 @@ export default function RootLayout({
             </ul>
           </nav>
         </header>
-        <main className="sm:w-3/5 max-w-full mx-auto bg-white rounded-slg border border-gray-200 box-border shadow-xl p-4">
+        <main className="md:w-4/5 max-w-full mx-auto bg-white rounded-slg border border-gray-200 box-border shadow-xl p-4">
           {children}
         </main>
       </body>

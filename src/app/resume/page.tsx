@@ -13,10 +13,14 @@ export default function Resume() {
         </p>
         <p className="text-2xl font-bold text-[#5445e5] w-fit mx-auto">岩渕 康也</p>
         <p className="w-fit mx-auto">ジュニアフロントエンドエンジニア</p>
-        <div className="flex gap-4 mx-auto">
-          <Badge label="kouya.0730@icloud.com" iconName="email" />
-          <Badge label="埼玉県さいたま市" iconName="address" />
-        </div>
+        <ul className="grid sm:grid-cols-2 gap-4 mx-auto">
+          <li>
+            <Badge label="kouya.0730@icloud.com" iconName="email" />
+          </li>
+          <li>
+            <Badge label="埼玉県さいたま市" iconName="address" />
+          </li>
+        </ul>
       </div>
       <WorkSection />
       <SkillSection />

@@ -45,7 +45,7 @@ export default function SkillSection() {
         <span>スキル</span>
       </h1>
 
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid sm:grid-cols-2 gap-2">
         <div className="mb-8 py-4 px-2 bg-[#f1f5f9] rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.3)] grid gap-4">
           <h2 className="text-[#7269fa] font-bold text-xl">フロントエンド</h2>
           <div className="grid gap-1">
