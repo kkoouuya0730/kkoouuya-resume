@@ -1,4 +1,5 @@
 import Badge from "@/app/components/badge/Badge";
+import Heading from "@/app/components/heading/Heading";
 import UseIon from "@/app/components/ui/icons/UseIcon";
 import React from "react";
 export const frontEndSkillSet = {
@@ -40,51 +41,53 @@ const SkillList = ({ listItems }: SkillListProps) => {
 export default function SkillSection() {
   return (
     <section className="grid gap-4 border-b pb-8 border-[#c7d2fe] py-8">
-      <h1 className="text-2xl font-bold text-[#5445e5] w-fit flex gap-1 items-center">
-        <UseIon iconName="brain" />
-        <span>スキル</span>
-      </h1>
+      <Heading level="h1">
+        <span className="w-fit flex gap-1 items-center">
+          <UseIon iconName="brain" />
+          <span>スキル</span>
+        </span>
+      </Heading>
 
       <div className="grid sm:grid-cols-2 gap-2">
         <div className="mb-8 py-4 px-2 bg-[#f1f5f9] rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.3)] grid gap-4">
-          <h2 className="text-[#7269fa] font-bold text-xl">フロントエンド</h2>
+          <Heading level="h2">フロントエンド</Heading>
           <div className="grid gap-1">
-            <h3 className="text-[#2c1a99] font-bold text-lg">言語</h3>
+            <Heading level="h3">言語</Heading>
             <SkillList listItems={frontEndSkillSet.langList} />
           </div>
           <div className="grid gap-1">
-            <h3 className="text-[#2c1a99] font-bold text-lg">フレームワーク</h3>
+            <Heading level="h3">フレームワーク</Heading>
             <SkillList listItems={frontEndSkillSet.frameWorkList} />
           </div>
           <div className="grid gap-1">
-            <h3 className="text-[#2c1a99] font-bold text-lg">ライブラリ</h3>
+            <Heading level="h3">ライブラリ</Heading>
             <SkillList listItems={frontEndSkillSet.libraryList} />
           </div>
         </div>
 
         <div className="mb-8 py-4 px-2 bg-[#f1f5f9] rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.3)] grid gap-2">
-          <h2 className="text-[#7269fa] font-bold text-xl">バックエンド</h2>
+          <Heading level="h2">バックエンド</Heading>
           <div className="grid gap-1">
-            <h3 className="text-[#2c1a99] font-bold text-lg">言語</h3>
+            <Heading level="h3">言語</Heading>
             <SkillList listItems={backEndSkillSet.langList} />
           </div>
           <div className="grid gap-1">
-            <h3 className="text-[#2c1a99] font-bold text-lg">フレームワーク</h3>
+            <Heading level="h3">フレームワーク</Heading>
             <SkillList listItems={backEndSkillSet.frameWorkList} />
           </div>
           <div className="grid gap-1">
-            <h3 className="text-[#2c1a99] font-bold text-lg">ライブラリ</h3>
+            <Heading level="h3">ライブラリ</Heading>
             <SkillList listItems={backEndSkillSet.libraryList} />
           </div>
         </div>
 
         <div className="mb-8 py-4 px-2 bg-[#f1f5f9] rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.3)] grid gap-4">
-          <h2 className="text-[#7269fa] font-bold text-xl">AWS</h2>
+          <Heading level="h2">AWS</Heading>
           <SkillList listItems={awsSkillSet.skillList} />
         </div>
 
         <div className="mb-8 py-4 px-2 bg-[#f1f5f9] rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.3)] grid gap-4">
-          <h2 className="text-[#7269fa] font-bold text-xl">その他・ツール</h2>
+          <Heading level="h2">その他・ツール</Heading>
           <SkillList listItems={otherSkillSet.skillList} />
         </div>
       </div>

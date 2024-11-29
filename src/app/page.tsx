@@ -9,7 +9,7 @@ export default function Home() {
       <div className="rounded-full border-4 border-[#6466F1] w-fit overflow-hidden mx-auto">
         <Image src="https://avatars.githubusercontent.com/u/127414558?s=96&v=4" width={192} height={192} alt="" />
       </div>
-      <p className="w-fit mx-auto text-3xl font-bold text-[#703FE8]">岩渕 康也</p>
+      <p className="w-fit mx-auto text-2xl font-bold text-[#5445e5]">岩渕 康也</p>
       <p className="w-fit mx-auto">ジュニアフロントエンドエンジニア</p>
       <p className="text-gray-600">
         株式会社ラクスパートナーズでWebフロントエンドエンジニアやってます。主にReact,

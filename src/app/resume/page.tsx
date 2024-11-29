@@ -3,6 +3,7 @@ import WorkSection from "./components/workSection/WorkSection";
 import SkillSection from "./components/skillSection/SkillSection";
 import EducationSection from "./components/educationSection/EducationSection";
 import Badge from "../components/badge/Badge";
+import Heading from "../components/heading/Heading";
 
 export default function Resume() {
   return (
@@ -11,7 +12,9 @@ export default function Resume() {
         <p className="rounded-full border-4 border-[#6466F1] w-fit overflow-hidden mx-auto">
           <Image src="https://avatars.githubusercontent.com/u/127414558?s=96&v=4" width={192} height={192} alt="" />
         </p>
-        <p className="text-2xl font-bold text-[#5445e5] w-fit mx-auto">岩渕 康也</p>
+        <div className="w-fit mx-auto">
+          <Heading level="h1">岩渕 康也</Heading>
+        </div>
         <p className="w-fit mx-auto">ジュニアフロントエンドエンジニア</p>
         <ul className="grid sm:grid-cols-2 gap-4 mx-auto">
           <li>
