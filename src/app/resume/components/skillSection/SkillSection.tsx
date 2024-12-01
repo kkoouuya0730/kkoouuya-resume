@@ -15,7 +15,7 @@ export const backEndSkillSet = {
 };
 
 export const awsSkillSet = {
-  skillList: ["AWS Lambda"],
+  skillList: ["AWS Lambda", "AWS DynamoDB", "API Gateway", "Cognito"],
 };
 
 export const otherSkillSet = {
